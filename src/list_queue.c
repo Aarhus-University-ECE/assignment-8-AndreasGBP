@@ -6,9 +6,9 @@ void init_queue(queue *q)
 {
   // Add your init_queue
   //Initialize of the queue
-  q->front = NULL; //
-  q->rear = NULL; //The rear pointer has no value
-  q->size = 0; //Sets size to 0
+  q -> front = NULL; //
+  q -> rear = NULL; //The rear pointer has no value
+  q -> size = 0; //Sets size to 0
 }
 
 int empty(queue *q)
